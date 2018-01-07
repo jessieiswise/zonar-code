@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "exsid": 1000,
+      "event_type_name": "DUTY_STATUS",
+      "tagid": 4040,
+      "lname": "John",
+      "fname": "Smith",
+      "event_code_name": "DRIVING",
+      "duty_status": "DRIVING",
+      "driver_id": 2761,
+      "timezone": "PST8PDT",
+      "violation_state": "V"
+    }
+  ]
+}

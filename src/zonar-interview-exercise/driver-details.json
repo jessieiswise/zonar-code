@@ -1,0 +1,92 @@
+{
+  "summary": {
+    "start_epoch": 1515052800,
+    "end_epoch": 1515139199,
+    "distance_driven": 100,
+    "distance_pc": 10,
+    "ruleset_id": 2,
+    "violation_state": "V",
+    "duty_status_totals": [
+      {
+        "seconds": 40168,
+        "event_code": "DRIVING"
+      },
+      {
+        "seconds": 0,
+        "event_code": "OFF"
+      },
+      {
+        "seconds": 0,
+        "event_code": "SLEEPER BERTH"
+      },
+      {
+        "seconds": 0,
+        "event_code": "ON"
+      }
+    ],
+    "clocks": [
+      {
+        "violation_code": "8D",
+        "clock": 5,
+        "duration": 0,
+        "allotted": 252000,
+        "active": true,
+        "violation_state": "V"
+      },
+      {
+        "violation_code": "DD",
+        "clock": 1,
+        "duration": 0,
+        "allotted": 39600,
+        "active": true,
+        "violation_state": "V"
+      },
+      {
+        "violation_code": "DOD",
+        "clock": 2,
+        "duration": 0,
+        "allotted": 50400,
+        "active": true,
+        "violation_state": "V"
+      },
+      {
+        "violation_code": "DR",
+        "clock": 3,
+        "duration": 0,
+        "allotted": 28800,
+        "active": true,
+        "violation_state": "V"
+      },
+      {
+        "active": false,
+        "duration": 0,
+        "clock": 4,
+        "allotted": 0
+      },
+      {
+        "active": false,
+        "duration": 86400,
+        "clock": 10,
+        "allotted": 0
+      },
+      {
+        "active": false,
+        "duration": 0,
+        "clock": 100,
+        "allotted": 0
+      }
+    ]
+  },
+  "details": {
+    "driver_name": "John Smith",
+    "driver_id": 2761,
+    "exemption_applied": false,
+    "ruleset_name": "Property 70",
+    "ruleset_id": 2,
+    "current_team_driver": "Jane Smith",
+    "team_drivers_details": [
+      "Jane Smith", "Jo Smith"
+    ],
+    "timezone": "PST8PDT"
+  }
+}
