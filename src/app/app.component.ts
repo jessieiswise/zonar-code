@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DriverListComponent } from "./driver-list/driver-list.component"
 
 @Component({
   selector: 'app-root',
