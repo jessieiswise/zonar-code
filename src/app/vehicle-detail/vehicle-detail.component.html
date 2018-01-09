@@ -1,3 +1,12 @@
-<p>
-  vehicle-detail works!
-</p>
+
+<article class="pa3 pb0  ">
+  <div class="bg-dark-pink pa-4 mt3 white b--near-white ba">
+    <ul 
+    class="pa2 list"
+    *ngFor="let asset of this.userobj.assets" >
+      <li class=" b--light-silver br2 ">Power Unit: {{asset.cmv_power_unit}}</li>
+      <li class=" b--light-silver br2 ">VIN: {{asset.vin}}</li>
+      <li class=" b--light-silver br2 ">Asset ID: {{asset.asset_id}}</li>
+    </ul>
+  </div>
+</article>

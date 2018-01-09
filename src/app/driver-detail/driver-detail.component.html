@@ -1,3 +1,23 @@
-<p>
-  driver-detail works!
-</p>
+
+<article class="pa3  pt1">
+  <div class="bg-dark-pink pa3  white b--near-white ba">
+    <div class="pb2">
+        <span class="db">Driver: {{userobj.details.driver_name}}</span>
+        <span class="db">Driver ID: {{userobj.details.driver_id}}</span>
+        <span class="db">Current Driver: {{userobj.details.current_team_driver}}</span>
+    </div>
+    <span class="db">Driver Start Time: {{convertEpochToTime(userobj.summary.start_epoch)}}</span>
+    <span class="db">Driver End Time: {{convertEpochToTime(userobj.summary.end_epoch)}}</span>
+    <span class="db">Distance Driven: {{userobj.summary.distance_driven}}</span>
+    <div class="mt3">
+      <span class="db">Duty Totals</span>
+      <ul 
+        class="ma1 ml0 pa0 list b--near-white bt pt2 mt1"
+        *ngFor="let asset of userobj.summary.duty_status_totals" >
+      <li class=" b--light-silver br2 ">Hours Spent: {{convertSecondsToTimeElapsed(asset.seconds)}}</li>
+      <li class=" b--light-silver br2 ">Event Code: {{asset.event_code}}</li>
+    </ul>
+    </div>
+    
+  </div>
+</article>

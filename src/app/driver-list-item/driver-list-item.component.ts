@@ -1,5 +1,5 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { Driver } from "../models/driver.model"
+import { Component, OnInit, Input, Output } from '@angular/core';
+
 
 @Component({
   selector: 'app-driver-list-item',
@@ -7,10 +7,18 @@ import { Driver } from "../models/driver.model"
   styleUrls: ['./driver-list-item.component.css']
 })
 export class DriverListItemComponent implements OnInit {
-  @Input() Driver: Driver;
-  constructor() { }
+  @Input() fname: string;
+  @Input() lname: string;
+  @Input() exsid: string;
+  @Input() driverid: string;
+  constructor() {
 
+   }
+  onClick(e) {
+
+  }
   ngOnInit() {
+
   }
 
 }
